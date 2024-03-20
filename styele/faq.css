@@ -1,0 +1,39 @@
+.container__FAQ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container__perguntas__faq {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.titulo__FAQ {
+  font-size: var(--font-size-titulo);
+  margin: 1em;
+}
+
+.btn__perguntas__FAQ {
+  margin: 0.5em;
+  background-color: transparent;
+  border: 1px solid var(--azul-principal);
+  padding: 1em;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.text__FAQ {
+  text-align: center;
+  font-size: var(--font-texto);
+  margin: 0.5em;
+  display: none;
+  width: 50%;
+}
+
+.active {
+  display: block;
+}

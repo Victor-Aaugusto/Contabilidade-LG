@@ -1,0 +1,75 @@
+.container__beneficios {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.beneficios-container__subcontainer {
+  margin: 3em;
+  display: flex;
+}
+
+.beneficios-container__titulo,
+.beneficios-container__texto {
+  margin: 1em;
+}
+
+.titulo__beneficios {
+  font-size: var(--font-size-titulo);
+}
+
+.beneficios-container__texto {
+  font-size: var(--font-texto);
+}
+
+.container__servicos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.trabalhos__texto {
+  text-align: center;
+  font-size: var(--font-size-titulo);
+  margin: 3em;
+}
+.container__servicos__realizados {
+  text-align: center;
+  margin: 2em;
+}
+
+.texto__servicos__titulo {
+  margin-bottom: 2em;
+  font-size: var(--font-size-sub);
+  font-weight: 700;
+}
+
+.texto__servicos {
+  font-size: var(--font-texto);
+  font-weight: 400;
+}
+
+.container__contatos {
+  margin: 1em;
+  font-size: var(--font-size-titulo);
+  font-weight: 700;
+  text-align: center;
+}
+
+.container__link__contatos {
+  margin: 1em 0 1em 0;
+  text-align: center;
+}
+
+.imagem__contatos {
+  width: 20px;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  font-size: var(--font-texto);
+}
+
+a:hover {
+  color: var(--azul-principal);
+}
